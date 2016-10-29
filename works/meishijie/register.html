@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>梦小夕</title>
+	<!-- 图标 -->
+	<link rel="shortcut icon" href="images/tit.png">
+	<!-- css -->
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/register.css" />
+	<link rel="stylesheet" type="text/css" href="iconfont/demo.css"/>
+	<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+	<script src="js/jquery_1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/register_login.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="index_register">
+	<!-- header -->
+		<div id="header-wrap" class="over">
+			<div id="header" class="clear over">
+				<a href="index.html" class="header_logo left"></a>
+				<p class="search_top left"><input type="text" placeholder="请输入菜谱/食谱/菜单/作者" class="left"><input type="button" value="搜索" class="right"></p>
+				<ul class="login_item right clear over">
+					<a href="###" class="left logologin qqlogo">QQ登录</a>
+					<a href="###" class="left logologin webologo">微博登录</a>
+					<a href="register.html?###" class="left">注册</a>
+					<a href="register.html?&login" class="left">登录</a>
+				</ul>
+				<!--搜索联想-->
+				<ul id="search_list">
+					<li>
+						<a href=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!--nav-->
+		<div id="nav_wrap">
+			<ul id="nav" class="clear">
+				<li><a href="index.html">首页</a></li>
+				<li class="manutype nav1">
+					<a href="list.html">菜谱大全<i class="iconfont">&#xe78a;</i></a>
+					<div class="down">
+						<ul class="nav_menu">
+						</ul>
+					</div>
+				</li>
+				<li class="manutype">
+					<a href="healthlist.html nav2">饮食健康<i class="iconfont">&#xe78a;</i></a>
+					<div class="down">
+						<ul class="nav_health">
+						</ul>
+					</div>
+				</li>
+				<li><a href="###">美食菜单</a></li>
+				<li><a href="###">家居馆</a></li>
+				<li><a href="####" class="titp">美食达人<img src="images/tit.png" alt="" /></a></li>
+				<li><a href="####">讨论组</a></li>
+				<li><a href="####">手机版下载</a></li>
+			</ul>
+		</div>
+		<!--登录注册-->
+		<div class="register">				
+			<h3><span class="rl_line_left"></span class="rg_tit"><span class="rg_tit">注册美食杰</span><span class="rl_line_right"></span></h3>
+			<ul class="rl_login">
+				<a href="" class="wechat"><span></span></a>
+				<a href="" class="tencent"><span></span></a>
+				<a href="" class="weibo"><span></span></a>
+			</ul>
+			<ul class="more_login">
+				<a href="###">更多第三登录方式 V</a>
+				<div class="hide_login">
+					<a href=""><span class="renren"></span>人人网账号登录</a>
+					<a href=""><span class="baidu"></span>百度账号登录</a>
+					<a href=""><span class="happy"></span>开心网账号登录</a>
+					<a href=""><span class="shengda"></span>盛大通行证登录</a>
+				</div>
+			</ul>
+			<p class="sp"></p>
+			<!--登录界面-->
+			<div class="login">
+				<form>
+					<p><input type="text" placeholder="请输入手机号" class="loginneme"/></p>
+					<p><input type="password" placeholder="请输入密码" class="loginpassword" /></p>
+					<p class="height33"><input type="checkbox" id="checkbox"/><label for="checkbox">下次自动登录</label><a href="">忘记密码</a></p>					
+					<input type="submit" value="登录"/>
+				</form>
+			</div>
+			<!--注册界面-->
+			<div class="register_pag">
+				<li class="register_change">
+					<span class="phone bold">手机注册 | </span>
+					<span class="email">邮箱注册</span>					
+				</li>
+				<li class="register_page">
+					<div class="form_wrap">
+						<form class="phone_reg">
+							<p><input type="text" placeholder="请输入手机号" class="userphone"/></p>
+							<p class="check_tit1">请输入正确的手机号码</p>
+							<p class="check_tit2">手机号码格式正确</p>
+							<p class="check_tit3">请输入正确的手机号码</p>
+							<p class="check_tit4">手机号已注册请直接登录</p>
+							<p><input type="text" placeholder="请输入验证码" class="check" /><input type="button" value="免费获取验证码" disabled="disabled"  /></p>
+							<p><input type="password" placeholder="请输入密码" /></p>
+							<p class="password_reg1">密码的长度应为6-16位</p>
+							<p class="password_reg2">密码强度：弱</p>
+							<p class="password_reg3">密码强度：中</p>
+							<p class="password_reg4">密码强度：强</p>						
+							<p class="height33"><input type="checkbox" id="checkbox"  checked="checked"/><label for="checkbox">我已阅读并且同意<span>美食杰用户使用协议</span></label></p>
+							<p><input type="submit" value="注册" /></p>
+						</form>
+						<form class="email_reg">
+							<p><input type="text" placeholder="请输入邮箱" class="useremail"/></p>
+							<p class="check_tit1">请输入正确的邮箱</p>
+							<p class="check_tit2">邮箱格式正确</p>
+							<p class="check_tit3">请输入正确的邮箱</p>
+							<p class="check_tit4">邮箱已注册请直接登录</p>
+							<p><input type="password" placeholder="请输入密码" /></p>
+							<p class="password_reg1">密码的长度应为6-16位</p>
+							<p class="password_reg2">密码强度：弱</p>
+							<p class="password_reg3">密码强度：中</p>
+							<p class="password_reg4">密码强度：强</p>
+							<p class="height33"><input type="checkbox" id="checkbox" checked="checked"/><label for="checkbox">我已阅读并且同意<span>美食杰用户使用协议</span></label></p>
+							<p><input type="submit" value="注册" /></p>
+						</form>
+					</div>				
+				</li>
+			</div>
+			<a href="###" class="togglechange">已有账号，马上登录Λ</a>
+		</div>	
+	<!--footer-->
+		<div id="footer_wrap">
+			<div id="footer">
+				<div class="footer_top clear">
+					<div class="footer_top_left left">
+						<img src="images/common/logo/logo_f.png"/>
+						<p>中国，最大的菜谱库<span>800,000 篇</span></p>
+						<p>每月，用户访问数量<span>20,000,000 次</span></p>
+						<p>每年，菜谱被浏览量<span>36,000,000,000 次</span></p>
+						<p>现在，这些数字还在不断的增长着，欢迎您来一起使用美食杰</p>
+					</div>
+					<ul class="footer_top_right left clear">
+						<li><a href=""><img src="images/common/logo/logo_f_weobo.jpg" alt="" /><a href="">点击进入<br/>美食杰官方微博</a></a></li>
+						<li><a href=""><img src="images/common/logo/logo_f_qzone.jpg" alt="" /><a href="">点击进入<br/>美食杰QQ空间</a></a></li>
+						<li><a href=""><img src="images/common/logo/logo_f_wechat.jpg" alt="" /><a href="">扫描二维码添加<br/>美食杰为微信好友</a></a></li>
+						<li><a href=""><img src="images/common/logo/logo_f_app.jpg" alt="" /><a href="">扫描二维码下载<br/>美食杰手机客户端</a></a></li>
+					</ul>
+				</div>
+				<div class="footer_center">
+					<ul class="clear"></ul>
+				</div>
+				<div class="copy">
+					<ul class="clear">
+						<li><a href="">公司简介</a></li>
+						<li><a href="">企业文化</a></li>
+						<li><a href="">公司动态</a></li>
+						<li><a href="">免责声明</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">招贤纳士</a></li>
+						<li><a href="">商务合作</a></li>
+						<li><a href="">网站地图</a></li>
+						<li><a href="">友情链接</a></li>
+						<li><a href="">美食杰移动app</a></li>
+					</ul>
+					<p>京ICP证150335号/京公网安备11010802009977 Copyright &copy;2003-2016 MEISHIJ CO.,LTD.</p>
+				</div>
+			</div>
+		</div>
+	<!--bottom-->	
+		<div id="bottom_search_wrap">
+			<div id="up"><i class="iconfont">&#xf0033;</i></div>
+				<div class="bottom_search">
+				<button class="fixed"></button>
+				<form>
+					<input type="text" class="search_bot" placeholder="请输入菜谱、食材、作者"/>
+					<input type="button" value="搜索" class="search_btn" />
+				</form>
+			</div>
+		</div>
+	<!--遮罩层-->
+	<div class="back_wrap">
+		<div class="check_box">
+			<h3>请输入验证码<span>X</span></h3>
+			<b>请输入验证码</b>
+			<form>
+				<input type="text" /><span class="verification">1sd4</span><a>换一张</a>
+				<p><input type="button" value="确定" /></p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

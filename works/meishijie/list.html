@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>梦小夕</title>
+	<!-- 图标 -->
+	<link rel="shortcut icon" href="images/tit.png">
+	<!-- css -->
+	<style type="text/css">
+		#nav .nav1>a{
+			height:72px;
+			border-bottom:4px solid #ff3232 ;
+		}
+	</style>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="iconfont/demo.css"/>
+	<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="css/list.css"/>
+	<script src="js/jquery_1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="detail">
+	<!-- header -->
+		<div id="header-wrap" class="over">
+			<div id="header" class="clear over">
+				<a href="index.html" class="header_logo left"></a>
+				<p class="search_top left"><input type="text" placeholder="请输入菜谱/食谱/菜单/作者" class="left"><input type="button" value="搜索" class="right"></p>
+				<ul class="login_item right clear over">
+					<a href="###" class="left logologin qqlogo">QQ登录</a>
+					<a href="###" class="left logologin webologo">微博登录</a>
+					<a href="register.html?register" class="left">注册</a>
+					<a href="register.html?login" class="left">登录</a>
+				</ul>
+				<!--搜索联想-->
+				<ul id="search_list">
+					<li>
+						<a href=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!--nav-->
+		<div id="nav_wrap">
+			<ul id="nav" class="clear">
+				<li><a href="index.html">首页</a></li>
+				<li class="manutype nav1">
+					<a href="list.html">菜谱大全<i class="iconfont">&#xe78a;</i></a>
+					<div class="down">
+						<ul class="nav_menu">
+						</ul>						
+					</div>
+				</li>
+				<li class="manutype nav2">
+					<a href="healthlist.html">饮食健康<i class="iconfont">&#xe78a;</i></a>
+					<div class="down">
+						<ul class="nav_health">
+						</ul>
+					</div>
+				</li>
+				<li><a href="###">美食菜单</a></li>
+				<li><a href="###">家居馆</a></li>
+				<li><a href="####" class="titp">美食达人<img src="images/tit.png" alt="" /></a></li>
+				<li><a href="####">讨论组</a></li>
+				<li><a href="####">手机版下载</a></li>
+			</ul>
+		</div>
+	<!--list-->		
+	<div id="list">	
+		<div class="list_menu">
+			<ul class="list_tit clear">
+				<li class="liclick"  cid = "1" pid="10001">菜式菜品</li>
+				<li cid = "10" pid="10002">中外菜系</li>
+				<li cid = "44" pid="10005">场景餐点</li>
+				<li cid = "82" pid="10010">汤羹饮品</li>
+				<li cid = "73" pid="10009">西点烘焙</li>
+				<li cid = "335" pid="10025">工艺菜品</li>
+				<li cid = "27" pid="10003">时令食材</li>
+				<li cid = "61" pid="10007">珍品菜肴</li>
+			</ul>
+			<div class="list_tit_box">
+				<h3>菜式菜品</h3>
+				<ul class="dis clear"></ul>
+				<ul class="clear"></ul>
+				<ul class="clear"></ul>
+				<ul class="clear"></ul>
+				<ul class="clear"></ul>
+				<ul class="clear"></ul>
+				<ul class="clear"></ul>
+				<ul class="clear"></ul>			
+			</div>
+		</div>
+		<div class="list_main clear">
+			<div class="list_main_tit">
+				<h3 class="dis">唯有美食不可辜负</h3>
+			</div>
+			<div class="list_main_left">
+				<ul class='tab clear'>
+					<li>普通筛选</li>
+					<li>食材筛选</li>
+				</ul>
+				<div class="pagebox">
+					<div class="pagebox1 dblock">
+						<dl>
+							<dt>选择工艺</dt>
+							<dd class="clear">
+								<a href="list.html?cid=287">爆</a>
+								<a href="list.html?cid=288">煲</a>
+								<a href="list.html?cid=290">炖</a>
+								<a href="list.html?cid=291">煎</a>
+								<a href="list.html?cid=292">焖</a>
+								<a href="list.html?cid=293">烧</a>
+								<a href="list.html?cid=294">炸</a>
+								<a href="list.html?cid=295">熬</a>
+								<a href="list.html?cid=296">烤</a>
+								<a href="list.html?cid=297">卤</a>
+								<a href="list.html?cid=298">泡</a>
+								<a href="list.html?cid=299">烙</a>
+								<a href="list.html?cid=300">酿</a>
+								<a href="list.html?cid=301">酱</a>
+								<a href="list.html?cid=302">溜</a>
+								<li class="morechoose clear">
+									<a href="list.html?cid=303">扒</a>
+									<a href="list.html?cid=304">焯</a>
+									<a href="list.html?cid=305">涮</a>
+									<a href="list.html?cid=306">烩</a>
+									<a href="list.html?cid=307">煨</a>	
+									<a href="list.html?cid=308">腌</a>
+									<a href="list.html?cid=309">熏</a>
+									<a href="list.html?cid=310">焗</a>
+									<a href="list.html?cid=311">灼</a>
+									<a href="list.html?cid=312">炝</a>
+								</li>
+							</dd>
+							<dd class = "moreclick"><span class="dblock">查看更多</span><span>收起</span></dd>
+						</dl>
+						<dl>
+							<dt>选择菜品</dt>
+							<dd class="clear">
+								<a href="list.html?cid=10">川菜</a>	
+								<a href="list.html?cid=11">粤菜</a>
+								<a href="list.html?cid=12">湘菜</a>
+								<a href="list.html?cid=13">鲁菜</a>
+								<a href="list.html?cid=14">京菜</a>
+								<a href="list.html?cid=15">东北菜</a>
+								<a href="list.html?cid=101">闽菜</a>	
+								<a href="list.html?cid=102">浙菜</a>
+								<a href="list.html?cid=104">苏菜</a>
+								<a href="list.html?cid=107">豫菜</a>
+								<a href="list.html?cid=108">晋菜</a>
+								<a href="list.html?cid=109">赣菜</a>
+								<li class="morechoose clear">
+									<a href="list.html?cid=110">湖北菜</a>	
+									<a href="list.html?cid=112">云南菜</a>
+									<a href="list.html?cid=113">贵州菜</a>
+									<a href="list.html?cid=114">新疆菜</a>
+									<a href="list.html?cid=115">淮扬菜</a>
+									<a href="list.html?cid=116">潮州菜</a>	
+									<a href="list.html?cid=117">客家菜</a>
+									<a href="list.html?cid=118">香港美食</a>
+									<a href="list.html?cid=119">台湾菜</a>
+								</li>
+							</dd>
+								<dd class = "moreclick"><span class="dblock">查看更多</span><span>收起</span></dd>
+						</dl>
+						<dl>
+							<dt>选择口味</dt>
+							<dd class="clear">
+								<a href="list.html?cid=331">苦</a>	
+								<a href="list.html?cid=333">咸</a>
+								<a href="list.html?cid=334">酸甜</a>
+								<a href="list.html?cid=335">香辣</a>
+								<a href="list.html?cid=336">麻辣</a>
+								<a href="list.html?cid=337">香甜</a>	
+								<a href="list.html?cid=338">咸香</a>
+								<a href="list.html?cid=339">奶香</a>
+								<a href="list.html?cid=340">葱香</a>
+								<li class="morechoose clear">
+									<a href="list.html?cid=341">五香</a>	
+									<a href="list.html?cid=342">酱香</a>
+									<a href="list.html?cid=343">草莓味</a>
+									<a href="list.html?cid=344">抹茶味</a>
+									<a href="list.html?cid=345">香草味</a>	
+									<a href="list.html?cid=346">柠檬味</a>
+									<a href="list.html?cid=347">薄荷味</a>
+									<a href="list.html?cid=348">橘子味</a>
+									<a href="list.html?cid=349">番茄味</a>
+									<a href="list.html?cid=350">果味</a>
+									<a href="list.html?cid=351">咖喱味</a>	
+									<a href="list.html?cid=352">孜然味</a>
+									<a href="list.html?cid=353">芥末味</a>
+									<a href="list.html?cid=354">烧烤味</a>
+									<a href="list.html?cid=355">糖醋味</a>	
+									<a href="list.html?cid=356">泡椒味</a>
+									<a href="list.html?cid=357">黑椒味</a>
+									<a href="list.html?cid=358">茄汁味</a>
+									<a href="list.html?cid=359">怪味</a>
+								</li>
+							</dd>
+								<dd class = "moreclick"><span class="dblock">查看更多</span><span>收起</span></dd>
+						</dl>
+					</div>
+					<div class="pagebox2">
+						<dl>
+							<dt>食材选择</dt>
+							<dd>
+								<a href="list.html?cid=209">南瓜</a>
+								<a href="list.html?cid=210">茄子</a>
+								<a href="list.html?cid=211">胡萝卜</a>
+								<a href="list.html?cid=212">白菜</a>	
+								<a href="list.html?cid=213">莴苣</a>
+								<a href="list.html?cid=214">生菜</a>
+								<a href="list.html?cid=215">山药</a>
+								<a href="list.html?cid=216">西红柿</a>	
+								<a href="list.html?cid=217">西蓝花</a>
+							<li class="morechoose clear">
+								<a href="list.html?cid=219">菠萝</a>
+								<a href="list.html?cid=220">梨</a>
+								<a href="list.html?cid=221">香蕉</a>
+								<a href="list.html?cid=222">柠檬</a>
+								<a href="list.html?cid=223">木瓜</a>	
+								<a href="list.html?cid=225">橙子</a>
+								<a href="list.html?cid=226">西瓜</a>
+								<a href="list.html?cid=227">大米</a>
+								<a href="list.html?cid=228">糯米</a>	
+								<a href="list.html?cid=229">小米</a>
+								<a href="list.html?cid=230">面条</a>
+								<a href="list.html?cid=232">绿豆</a>
+								<a href="list.html?cid=233">豆腐</a>
+								<a href="list.html?cid=235">牛奶</a>
+								<a href="list.html?cid=208">海带</a>
+								<a href="list.html?cid=207">紫菜</a>
+								<a href="list.html?cid=204">三文鱼</a>
+								<a href="list.html?cid=203">带鱼</a>
+							</li>
+							</dd>
+							<dd class = "moreclick"><span class="dblock">查看更多</span><span>收起</span></dd>
+						</dl>
+					</div>
+				</div>
+			</div>			
+			<div class="list_main_right">	
+				<div id="box" class="clear"></div>
+			    <div id="page" class="clear">
+			    	<ul></ul>
+	   			</div>
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+		<div id="footer_wrap">
+			<div id="footer">
+				<div class="footer_top clear">
+					<div class="footer_top_left left">
+						<img src="images/common/logo/logo_f.png"/>
+						<p>中国，最大的菜谱库<span>800,000 篇</span></p>
+						<p>每月，用户访问数量<span>20,000,000 次</span></p>
+						<p>每年，菜谱被浏览量<span>36,000,000,000 次</span></p>
+						<p>现在，这些数字还在不断的增长着，欢迎您来一起使用美食杰</p>
+					</div>
+					<ul class="footer_top_right left clear">
+						<li><ahref="###"><img src="images/common/logo/logo_f_weobo.jpg" alt="" /><ahref="###">点击进入<br/>美食杰官方微博</a></a></li>
+						<li><ahref="###"><img src="images/common/logo/logo_f_qzone.jpg" alt="" /><ahref="###">点击进入<br/>美食杰QQ空间</a></a></li>
+						<li><ahref="###"><img src="images/common/logo/logo_f_wechat.jpg" alt="" /><ahref="###">扫描二维码添加<br/>美食杰为微信好友</a></a></li>
+						<li><ahref="###"><img src="images/common/logo/logo_f_app.jpg" alt="" /><ahref="###">扫描二维码下载<br/>美食杰手机客户端</a></a></li>
+					</ul>
+				</div>
+				<div class="footer_center">
+					<ul class="clear"></ul>
+				</div>
+				<div class="copy">
+					<ul class="clear">
+						<li><ahref="###">公司简介</a></li>
+						<li><ahref="###">企业文化</a></li>
+						<li><ahref="###">公司动态</a></li>
+						<li><ahref="###">免责声明</a></li>
+						<li><ahref="###">联系我们</a></li>
+						<li><ahref="###">招贤纳士</a></li>
+						<li><ahref="###">商务合作</a></li>
+						<li><ahref="###">网站地图</a></li>
+						<li><ahref="###">友情链接</a></li>
+						<li><ahref="###">美食杰移动app</a></li>
+					</ul>
+					<p>京ICP证150335号/京公网安备11010802009977 Copyright &copy;2003-2016 MEISHIJ CO.,LTD.</p>
+				</div>
+			</div>
+		</div>
+			<!--bottom-->	
+		<div id="bottom_search_wrap">
+			<div id="up"><i class="iconfont">&#xf0033;</i></div>
+				<div class="bottom_search">
+				<button class="fixed"></button>
+				<form>
+					<input type="text" class="search_bot" placeholder="请输入菜谱、食材、作者"/>
+					<input type="button" value="搜索" class="search_btn" />
+				</form>
+			</div>
+		</div>
+</body>
+</html>

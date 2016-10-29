@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+ul,ol,li{list-style:none;}
+img{border:none;}
+.left{
+	float:left;
+	}
+.right{
+	float:right;
+	}
+.clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+	}
+body{
+	font:14px "微软雅黑";
+	}
+.index_top,.advertise_wrap,.indexabout_wrap,.indexcase_wrap,.indexservice_wrap,.footer_wrap,.copy_wrap,.sub_top,.pos_wrap{
+	width:100%;
+	}
+.nav,.advertise,table,.footer,.copy,.pos_wrap div,.news_main,.page,#case .case_show,.about_main,.about_main_top,.about_main ul,.content_main{
+	width:960px;
+	margin:0 auto;
+	}
+/*子网页*/
+.sub_top{
+	height:285px;
+	}
+.sub_top p{
+	width:114px;
+	height:56px;
+	line-height:56px;
+	font-size:56px;
+	color:#fff;
+	margin:0 auto;
+	padding-top:122px;
+	font-family:"宋体";
+	}
+.pos_wrap{
+	height:64px;
+	background:url(../images/bac_sub.png) repeat-x left top;
+	}
+.pos_wrap div{
+	height:64px;
+	background:url(../images/pos_bac.png) no-repeat left top;
+	line-height:64px;
+	font-size:14px;
+	color:#f5f5f5;
+	text-align:center;
+	}
+.pos_wrap div p{
+	width:122px;
+	float:left;
+	}
+.pos_wrap div span{
+	display:block;
+	float:left;
+	width:44px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

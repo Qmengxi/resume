@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>梦小夕</title>
+	<!-- 图标 -->
+	<link rel="shortcut icon" href="images/tit.png">
+	<!-- css -->
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">	
+	<link rel="stylesheet" type="text/css" href="iconfont/demo.css"/>
+	<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+	<script src="js/jquery_1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="index">
+	<!-- header -->
+		<div id="header-wrap" class="over">
+			<div id="header" class="clear over">
+				<a href="index.html" class="header_logo left"></a>
+				<p class="search_top left"><input type="text" placeholder="请输入菜谱/食谱/菜单/作者" class="left"><input type="button" value="搜索" class="right"></p>
+				<ul class="login_item right clear over">
+					<a href="###" class="left logologin qqlogo">QQ登录</a>
+					<a href="###" class="left logologin webologo">微博登录</a>
+					<a href="register.html?&register" class="left">注册</a>
+					<a href="register.html?&login" class="left">登录</a>
+				</ul>
+				<!--搜索联想-->
+				<ul id="search_list">
+					<li>
+						<a href=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!--nav-->
+		<div id="nav_wrap">
+			<ul id="nav" class="clear">
+				<li><a href="index.html">首页</a></li>
+				<li class="manutype nav1">
+					<a href="list.html">菜谱大全<i class="iconfont">&#xe78a;</i></a>
+					<div class="down">
+						<ul class="nav_menu"></ul>
+						<img src="images/common/nav1.png"/>
+					</div>
+				</li>
+				<li class="manutype nav1">
+					<a href="healthlist.html">饮食健康<i class="iconfont">&#xe78a;</i></a>
+					<div class="down">
+						<ul class="nav_health"></ul>
+						<img src="images/common/nav2.png"/>
+					</div>
+				</li>
+				<li><a href="###">美食菜单</a></li>
+				<li><a href="###">家居馆</a></li>
+				<li><a href="####" class="titp">美食达人<img src="images/tit.png" alt="" /></a></li>
+				<li><a href="####">讨论组</a></li>
+				<li><a href="####">手机版下载</a></li>
+			</ul>
+		</div>
+	<!--recommend-->
+		<div id="recom_wrap">
+			<div class="recommend" id="recommend">
+				<div>
+					<h3 class="tittle active">今日早餐推荐：精致的早餐，有时会成为起床的动力呢</h3>
+					<h3 class="tittle">今日午餐推荐：高颜值烤箱菜，不动烟火也能做午餐</h3>
+					<h3 class="tittle">今日下午茶推荐：没有下午茶的周末不是完整的周末</h3>
+					<h3 class="tittle">今日晚餐推荐：海鲜正肥美，你舍得就这样错过吗</h3>
+					<h3 class="tittle">今日夜宵推荐：夜太凉，睡前就是要吃点暖暖的才舒服</h3>
+				</div>
+				<ul class="recommend_show clear"></ul>
+				<div class="wrapleft"></div>
+				<div class="wrapright"></div>
+				<div class="clickleft"></div>
+				<div class="clickright"></div>
+			</div>
+			<div class="recommend_ind">
+				<div class="clear">
+					<a>早餐时间</a>
+					<a>午餐时间</a>
+					<a>下午茶时间</a>
+					<a>晚餐时间</a>
+					<a>夜宵时间</a>
+					<div>
+						<span class="po1">4:00</span>
+						<span class="po2">10:00</span>
+						<span class="po3">14:00</span>
+						<span class="po4">16:00</span>
+						<span class="po5">21:00</span>
+						<span class="po6">4:00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--carousel1-->
+		<h3 class="tittle">9月，初秋宜清补<a href="list.html" class="more">更多菜谱 ></a></h3>
+		<div id="carousel1_show">
+			<div class="carousel1_show1">
+				<div class="carousel1_wrap clear">
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+				</div>	
+			</div>
+			<div class="carousel1_index">
+				<a class="cur"></a>
+				<a></a>
+				<a></a>
+			</div>
+			<div class="carousel1_left carousel1_click"></div>
+			<div class="carousel1_right carousel1_click"></div>
+		</div>
+ 	<!--material-->	
+ 		<h3 class="tittle">9月，润肺养气血<a href="###" class="more">更多食材 ></a></h3>
+ 		<div id="material">
+ 			<ul class="material_box">
+ 				<li>
+ 					<a href="list.html?menu=水果">水果</a>
+ 					<ul class="show clear">
+ 						<li><a href="list.html?menu=梨"><img src="images/index/material1.jpg" alt="" /><p><span></span>梨</p></a></li>
+ 						<li><a href="list.html?menu=香蕉"><img src="images/index/material2.jpg" alt="" /><p><span></span>香蕉</p></a></li>
+ 						<li><a href="list.html?menu=苹果"><img src="images/index/material3.jpg" alt="" /><p><span></span>苹果</p></a></li>
+ 						<li><a href="list.html?menu=葡萄"><img src="images/index/material4.jpg" alt="" /><p><span></span>葡萄</p></a></li>
+ 						<li><a href="list.html?menu=哈密瓜"><img src="images/index/material5.jpg" alt="" /><p><span></span>哈密瓜</p></a></li>
+ 						<li><a href="list.html?menu=西瓜"><img src="images/index/material6.jpg" alt="" /><p><span></span>西瓜</p></a></li>
+ 						<li><a href="list.html?menu=橙"><img src="images/index/material7.jpg" alt="" /><p><span></span>橙</p></a></li>
+ 						<li><a href="list.html?menu=石榴"><img src="images/index/material8.jpg" alt="" /><p><span></span>石榴</p></a></li>
+ 					</ul>
+ 				</li>
+ 				<li>
+ 					<a href="list.html?menu=蔬菜">蔬菜</a>
+ 					<ul class="clear">
+ 						<li><a href="list.html?menu=西红柿"><img src="images/index/material9.jpg" alt="" /><p><span></span>西红柿</p></a></li>
+ 						<li><a href="list.html?menu=空心菜"><img src="images/index/material10.jpg" alt="" /><p><span></span>空心菜</p></a></li>
+ 						<li><a href="list.html?menu=藕"><img src="images/index/material11.jpg" alt="" /><p><span></span>藕</p></a></li>
+ 						<li><a href="list.html?menu=茄子"><img src="images/index/material12.jpg" alt="" /><p><span></span>茄子</p></a></li>
+ 						<li><a href="list.html?menu=豇豆"><img src="images/index/material13.jpg" alt="" /><p><span></span>豇豆</p></a></li>
+ 						<li><a href="list.html?menu=冬瓜"><img src="images/index/material14.jpg" alt="" /><p><span></span>冬瓜</p></a></li>
+ 						<li><a href="list.html?menu=杏鲍菇"><img src="images/index/material15.jpg" alt="" /><p><span></span>杏鲍菇</p></a></li>
+ 						<li><a href="list.html?menu=黄秋葵"><img src="images/index/material16.jpg" alt="" /><p><span></span>黄秋葵</p></a></li>
+ 					</ul>
+ 				</li>
+ 				<li>
+ 					<a href="list.html?menu=五谷">五谷</a>
+ 					<ul class="clear">
+ 						<li><a href="list.html?menu=玉米"><img src="images/index/material17.jpg" alt="" /><p><span></span>玉米（鲜）</p></a></li>
+ 						<li><a href="list.html?menu=毛豆"><img src="images/index/material18.jpg" alt="" /><p><span></span>毛豆</p></a></li>
+ 						<li><a href="list.html?menu=核桃"><img src="images/index/material19.jpg" alt="" /><p><span></span>核桃（鲜）</p></a></li>
+ 						<li><a href="list.html?menu=花生"><img src="images/index/material20.jpg" alt="" /><p><span></span>花生</p></a></li>
+ 						<li><a href="list.html?menu=板栗"><img src="images/index/material21.jpg" alt="" /><p><span></span>板栗</p></a></li>
+ 						<li><a href="list.html?menu=赤小豆"><img src="images/index/material22.jpg" alt="" /><p><span></span>赤小豆</p></a></li>
+ 						<li><a href="list.html?menu=薏米"><img src="images/index/material23.jpg" alt="" /><p><span></span>薏米</p></a></li>
+ 						<li><a href="list.html?menu=燕麦"><img src="images/index/material24.jpg" alt="" /><p><span></span>燕麦</p></a></li>
+ 					</ul>
+ 				</li>
+ 				<li>
+ 					<a href="list.html?menu=生鲜">生鲜</a>
+ 					<ul class="clear">
+ 						<li><a href="list.html?menu=蟹"><img src="images/index/material25.jpg" alt="" /><p><span></span>梭子蟹</p></a></li>
+ 						<li><a href="list.html?menu=鲍鱼"><img src="images/index/material26.jpg" alt="" /><p><span></span>鲍鱼</p></a></li>
+ 						<li><a href="list.html?menu=鸭"><img src="images/index/material27.jpg" alt="" /><p><span></span>鸭</p></a></li>
+ 						<li><a href="list.html?menu=草鱼"><img src="images/index/material28.jpg" alt="" /><p><span></span>草鱼</p></a></li>
+ 						<li><a href="list.html?menu=牛肉"><img src="images/index/material29.jpg" alt="" /><p><span></span>牛肉</p></a></li>
+ 						<li><a href="list.html?menu=鱿鱼"><img src="images/index/material30.jpg" alt="" /><p><span></span>鱿鱼</p></a></li>
+ 						<li><a href="list.html?menu=扇贝"><img src="images/index/material31.jpg" alt="" /><p><span></span>扇贝</p></a></li>
+ 						<li><a href="list.html?menu=鸡腿"><img src="images/index/material32.jpg" alt="" /><p><span></span>鸡腿</p></a></li>
+ 					</ul>
+ 				</li>
+ 			</ul>
+ 		</div>
+	<!--carouse2-->
+		<div class="carousel2_h3">
+			<h3 class="tittle active">最新菜谱<a href="list.html" class="more"> &nbsp;更多菜谱 ></a><span class="more1"><a  class="colored">最新 </a>| 最热:<a 一小时 </a> <a >今日</a> <a>七天 </a></span></h3>
+			<h3 class="tittle">每小时最热菜谱<a href="list.html" class="more"> &nbsp;更多菜谱 ></a><span class="more1"><a >最新 </a>| 最热:<a  class="colored">一小时 </a> <a >今日</a> <a>七天 </a></span></h3>
+			<h3 class="tittle">今日最受欢迎菜谱<a href="list.html" class="more"> &nbsp;更多菜谱 ></a><span class="more1"><a >最新 </a>| 最热:<a>一小时 </a> <a  class="colored">今日</a> <a>七天 </a></span></h3>
+			<h3 class="tittle">一周热门菜谱推荐<a href="list.html" class="more"> &nbsp;更多菜谱 ></a><span class="more1"><a >最新 </a>| 最热:<a >一小时 </a> <a >今日</a> <a  class="colored">七天 </a></span></h3>		
+		</div>
+		<div id="carousel2_show">
+			<div class="carousel2_show1">
+				<div class="carousel2_wrap clear">
+					<ul class="left">
+						<li class="mr_l">
+							<img src="images/index/carousel2_1.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">白灼菜心</a></span>
+									<span class="carousel2_support">110评论，1999人气</span>
+									<span class="carousel2_writer">静默成诗</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概5分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>灼/甜味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_2.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">鼓汁蒸排骨</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">粗茶淡饭</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>10步，大概60分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>蒸/海鲜味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_3.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">葱油饼</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">眼角眉梢—格格</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>8步，大概5分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>煎/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_4.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">葱花鸡蛋面</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="mr_l">
+							<img src="images/index/carousel2_5.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">粢饭团</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">月亮晶晶</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_6.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">海带鲜肉大馄饨</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">牛厨妈妈</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_7.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">四红补血粥</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">谷味的厨房</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="carousel2_menu">
+							<h3>热门栏目推荐</h3>
+							<ul class="clear">
+								<li><a href="list.html?cid=2">快手菜</a></li>
+								<li><a href="list.html?cid=1">家常菜</a></li>
+								<li><a href="list.html?cid=5">凉菜</a></li>
+								<li><a href="list.html?cid=4">素菜</a></li>
+								<li><a href="list.html?cid=37">早餐</a></li>
+								<li><a href="list.html?cid=149">乌发</a></li>
+								<li><a href="list.html?cid=136">高血压</a></li>
+								<li><a href="list.html?cid=90">便当</a></li>
+								<li><a href="list.html?cid=18">韩国料理</a></li>
+								<li><a href="list.html?cid=10">川菜</a></li>
+								<li><a href="list.html?cid=11">粤菜</a></li>
+								<li><a href="list.html?cid=12">湘菜</a></li>
+								<li><a href="list.html?cid=86">甜点</a></li>
+								<li class="backred"><a href="list.html">进入菜谱大全 >></a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="left ">
+						<li class="mr_l">
+							<img src="images/index/carousel2_8.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">鱼蛋山药浓汤煲</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_9.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">奇异果芝士蛋糕</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_10.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">耗油杏鲍菇</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_11.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">清蒸鲈鱼</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="mr_l">
+							<img src="images/index/carousel2_12.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">干锅三黄鸡</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_13.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">抹茶密语</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_14.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">香酥黄金球</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="carousel2_menu">
+							<h3>热门栏目推荐</h3>
+							<ul class="clear">
+								<li><a href="list.html?cid=2">快手菜</a></li>
+								<li><a href="list.html?cid=1">家常菜</a></li>
+								<li><a href="list.html?cid=5">凉菜</a></li>
+								<li><a href="list.html?cid=4">素菜</a></li>
+								<li><a href="list.html?cid=37">早餐</a></li>
+								<li><a href="list.html?cid=149">乌发</a></li>
+								<li><a href="list.html?cid=136">高血压</a></li>
+								<li><a href="list.html?cid=90">便当</a></li>
+								<li><a href="list.html?cid=18">韩国料理</a></li>
+								<li><a href="list.html?cid=10">川菜</a></li>
+								<li><a href="list.html?cid=11">粤菜</a></li>
+								<li><a href="list.html?cid=12">湘菜</a></li>
+								<li><a href="list.html?cid=86">甜点</a></li>
+								<li class="backred"><a href="list.html">进入菜谱大全 >></a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="left ">
+						<li class="mr_l">
+							<img src="images/index/carousel2_15.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">蔓越莓饼干</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_16.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">烤韭菜盒子</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_17.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">腊味糯米烧麦</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_18.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">蔬菜虾仁粥</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="mr_l">
+							<img src="images/index/carousel2_19.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">扫饭光香辣子鸡</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_20.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">素炸春卷</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_21.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">炸冰淇淋</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="carousel2_menu">
+							<h3>热门栏目推荐</h3>
+							<ul class="clear">
+								<li><a href="list.html?cid=2">快手菜</a></li>
+								<li><a href="list.html?cid=1">家常菜</a></li>
+								<li><a href="list.html?cid=5">凉菜</a></li>
+								<li><a href="list.html?cid=4">素菜</a></li>
+								<li><a href="list.html?cid=37">早餐</a></li>
+								<li><a href="list.html?cid=149">乌发</a></li>
+								<li><a href="list.html?cid=136">高血压</a></li>
+								<li><a href="list.html?cid=90">便当</a></li>
+								<li><a href="list.html?cid=18">韩国料理</a></li>
+								<li><a href="list.html?cid=10">川菜</a></li>
+								<li><a href="list.html?cid=11">粤菜</a></li>
+								<li><a href="list.html?cid=12">湘菜</a></li>
+								<li><a href="list.html?cid=86">甜点</a></li>
+								<li class="backred"><a href="list.html">进入菜谱大全 >></a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="left">
+						<li class="mr_l">
+							<img src="images/index/carousel2_22.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">黑椒烧汁杏鲍菇</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_23.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">西红柿炖牛肉</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_24.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">Q谈嫩滑鲜虾鸡蛋羹</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_25.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">土家酱香饼</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="mr_l">
+							<img src="images/index/carousel2_26.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">鱼香嫩豆腐</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_27.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">地三鲜</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_28.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">自制手抓饼</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="carousel2_menu">
+							<h3>热门栏目推荐</h3>
+							<ul class="clear">
+								<li><a href="list.html?cid=2">快手菜</a></li>
+								<li><a href="list.html?cid=1">家常菜</a></li>
+								<li><a href="list.html?cid=5">凉菜</a></li>
+								<li><a href="list.html?cid=4">素菜</a></li>
+								<li><a href="list.html?cid=37">早餐</a></li>
+								<li><a href="list.html?cid=149">乌发</a></li>
+								<li><a href="list.html?cid=136">高血压</a></li>
+								<li><a href="list.html?cid=90">便当</a></li>
+								<li><a href="list.html?cid=18">韩国料理</a></li>
+								<li><a href="list.html?cid=10">川菜</a></li>
+								<li><a href="list.html?cid=11">粤菜</a></li>
+								<li><a href="list.html?cid=12">湘菜</a></li>
+								<li><a href="list.html?cid=86">甜点</a></li>
+								<li class="backred"><a href="list.html">进入菜谱大全 >></a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="left">
+						<li class="mr_l">
+							<img src="images/index/carousel2_1.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">白灼菜心</a></span>
+									<span class="carousel2_support">110评论，1999人气</span>
+									<span class="carousel2_writer">静默成诗</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;</i>6步，大概5分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>灼/甜味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_2.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">鼓汁蒸排骨</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">粗茶淡饭</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;</i>10步，大概60分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>蒸/海鲜味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_3.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">葱油饼</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">眼角眉梢—格格</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;</i>8步，大概5分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>煎/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_4.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">葱花鸡蛋面</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">肥小菇</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="mr_l">
+							<img src="images/index/carousel2_5.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">粢饭团</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">月亮晶晶</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_6.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">海带鲜肉大馄饨</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">牛厨妈妈</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/index/carousel2_7.jpg" alt="" />
+							<div class="carousel2_menu_deco">
+								<p class="carousel2_menu_name">
+									<span class="carousel2_name"><a href="###">四红补血粥</a></span>
+									<span class="carousel2_support">10评论，1999人气</span>
+									<span class="carousel2_writer">谷味的厨房</span>
+								</p>
+								<p class="carousel2_menu_way">
+									<span class="carousel2_step"><i class="iconfont">&#xe604;
+</i>6步，大概10分钟</span>
+									<span class="carousel2_style"><i class="iconfont">&#xe66c;&nbsp;</i>烧/家常味</span>
+								</p>
+							</div>
+						</li>
+						<li class="carousel2_menu">
+							<h3>热门栏目推荐</h3>
+							<ul class="clear">
+								<li><a href="list.html?cid=2">快手菜</a></li>
+								<li><a href="list.html?cid=1">家常菜</a></li>
+								<li><a href="list.html?cid=5">凉菜</a></li>
+								<li><a href="list.html?cid=4">素菜</a></li>
+								<li><a href="list.html?cid=37">早餐</a></li>
+								<li><a href="list.html?cid=149">乌发</a></li>
+								<li><a href="list.html?cid=136">高血压</a></li>
+								<li><a href="list.html?cid=90">便当</a></li>
+								<li><a href="list.html?cid=18">韩国料理</a></li>
+								<li><a href="list.html?cid=10">川菜</a></li>
+								<li><a href="list.html?cid=11">粤菜</a></li>
+								<li><a href="list.html?cid=12">湘菜</a></li>
+								<li><a href="list.html?cid=86">甜点</a></li>
+								<li class="backred"><a href="list.html">进入菜谱大全 >></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<div class="carousel2_left carousel2_click"></div>
+			<div class="carousel2_right carousel2_click"></div>
+		</div>
+	<!--health_news-->
+		<h3 class="tittle">健康新闻<a href="###" class="more">更多健康咨询 ></a></h3>
+		<div id="health_news">
+			<ul>
+				<span>食品安全<img src="images/index/jiao1.png" alt="" /></span>
+				<li class="health_active"><a href="###">四种煮饭方式不可取<img src="images/index/health1.jpg" alt="" /></a></li>
+				<li><a href="###">使用抗生素 汉堡王星巴克被点名<img src="images/index/health2.jpg" alt="" /></a></li>
+				<li><a href="###">方便面谣言破除<img src="images/index/health3.jpg" alt="" /></a></li>
+			</ul>
+			<ul class="mr_r">
+				<span>食品安全<img src="images/index/jiao1.png" alt="" /></span>
+				<li class="health_active"><a href="###">老北京糕点的美食文化<img src="images/index/health4.jpg" alt="" /></a></li>
+				<li><a href="###">花椒得名于美女救人<img src="images/index/health5.jpg" alt="" /></a></li>
+				<li><a href="###">古人药食养生趣谈四则<img src="images/index/health6.jpg" alt="" /></a></li>
+			</ul>
+			<ul class="mr_b">
+				<span>食品安全<img src="images/index/jiao1.png" alt="" /></span>
+				<li class="health_active"><a href="###">避开吃零食的4个误区<img src="images/index/health7.jpg" alt="" /></a></li>
+				<li><a href="###">秋季吃鸭不可错过的四道菜<img src="images/index/health8.jpg" alt="" /></a></li>
+				<li><a href="###">秋季食疗防脱发<img src="images/index/health9.jpg" alt="" /></a></li>
+			</ul>
+			<ul class="mr_r mr_b">
+				<span>食品安全<img src="images/index/jiao1.png" alt="" /></span>
+				<li class="health_active"><a href="###">腌菜秘诀大揭秘<img src="images/index/health10.jpg" alt="" /></a></li>
+				<li><a href="###">3秒钟去皮，剥蒜不脏手神技能<img src="images/index/health11.jpg" alt="" /></a></li>
+				<li><a href="###">大姨妈光顾，挑对水果招待她<img src="images/index/health12.jpg" alt="" /></a></li>
+			</ul>
+		</div>
+	<!--footer-->
+		<div id="footer_wrap">
+			<div id="footer">
+				<div class="footer_top clear">
+					<div class="footer_top_left left">
+						<img src="images/common/logo/logo_f.png"/>
+						<p>中国，最大的菜谱库<span>800,000 篇</span></p>
+						<p>每月，用户访问数量<span>20,000,000 次</span></p>
+						<p>每年，菜谱被浏览量<span>36,000,000,000 次</span></p>
+						<p>现在，这些数字还在不断的增长着，欢迎您来一起使用美食杰</p>
+					</div>
+					<ul class="footer_top_right left clear">
+						<li><a href="###"><img src="images/common/logo/logo_f_weobo.jpg" alt="" /><a href="###">点击进入<br/>美食杰官方微博</a></a></li>
+						<li><a href="###"><img src="images/common/logo/logo_f_qzone.jpg" alt="" /><a href="###">点击进入<br/>美食杰QQ空间</a></a></li>
+						<li><a href="###"><img src="images/common/logo/logo_f_wechat.jpg" alt="" /><a href="###">扫描二维码添加<br/>美食杰为微信好友</a></a></li>
+						<li><a href="###"><img src="images/common/logo/logo_f_app.jpg" alt="" /><a href="###">扫描二维码下载<br/>美食杰手机客户端</a></a></li>
+					</ul>
+				</div>
+				<div class="footer_center">
+					<p class="blogroll">友情链接</p>
+					<ul class="clear">					
+						<li><a href="###">美食</a></li>
+						<li><a href="###">体质测试</a></li>
+						<li><a href="###">伊特</a></li>
+						<li><a href="###">大粤网美食</a></li>
+						<li><a href="###">9酷音乐网</a></li>
+						<li><a href="###">123菜谱大全</a></li>
+						<li><a href="###">爱奇艺生活</a></li>
+						<li><a href="###">365音乐网</a></li>
+						<li><a href="###">图吧</a></li>
+						<li><a href="###">汽车论坛</a></li>
+						<li><a href="###">39健康饮食</a></li>
+						<li><a href="###">QQ下载</a></li>
+						<li><a href="###">家具网</a></li>
+						<li><a href="###">搜狐美食</a></li>
+						<li><a href="###">美食天下</a></li>
+						<li><a href="###">特色菜网</a></li>
+						<li><a href="###">poco美食网</a></li>
+						<li><a href="###">中华美食网</a></li>
+						<li><a href="###">合肥公交网</a></li>
+						<li><a href="###">苹果园</a></li>
+						<li><a href="###">红餐微杂志</a></li>
+						<li><a href="###">北京搜房网</a></li>
+						<li><a href="###">东莞赶集网</a></li>
+						<li><a href="###">厨师网</a></li>
+						<li><a href="###">更多友情链接</a></li>
+					</ul>
+				</div>
+				<div class="copy">
+					<ul class="clear">
+						<li><a href="###">公司简介</a></li>
+						<li><a href="###">企业文化</a></li>
+						<li><a href="###">公司动态</a></li>
+						<li><a href="###">免责声明</a></li>
+						<li><a href="###">联系我们</a></li>
+						<li><a href="###">招贤纳士</a></li>
+						<li><a href="###">商务合作</a></li>
+						<li><a href="###">网站地图</a></li>
+						<li><a href="###">友情链接</a></li>
+						<li><a href="###">美食杰移动app</a></li>
+					</ul>
+					<p>京ICP证150335号/京公网安备11010802009977 Copyright &copy;2003-2016 MEISHIJ CO.,LTD.</p>
+				</div>
+			</div>
+		</div>
+	<!--bottom-->	
+		<div id="bottom_search_wrap">
+			<div id="up"><i class="iconfont">&#xf0033;</i></div>
+				<div class="bottom_search">
+				<button class="fixed"></button>
+				<form>
+					<input type="text" class="search_bot" placeholder="请输入菜谱、食材、作者"/>
+					<input type="button" value="搜索" class="search_btn" />
+				</form>
+			</div>
+		</div>
+	
+	
+	
+	
+	
+	</div>
+</body>
+</html>
