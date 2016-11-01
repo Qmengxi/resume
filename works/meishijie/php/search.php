@@ -1,6 +1,6 @@
 <?php
 	$data =$_POST['data'];
-	$key="60481de58bfd21467b64b1bbba3349f8";
+	$key="0cf92c915763bc2297f542100e49f3c8";
 	header("Access-Control-Allow-Origin:http://apis.juhe.cn/cook/query?key=".$key."&".$data);
 	header('Access-Control-Allow-Methods:POST');
 	$url ="http://apis.juhe.cn/cook/query?key=".$key."&".$data;
